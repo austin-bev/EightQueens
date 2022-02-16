@@ -1,3 +1,5 @@
+My submission for one of the questions in my final assesment for COMP2009 (v.1) Intelligent Agents at Curtin. The problem statement was to write an algorithm which can solve the n queens problem with a Hill-climbing algorithm.
+
 ## Compiling
 
 Run ./make to compile the program.
