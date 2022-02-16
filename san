@@ -1,0 +1,13 @@
+if [ $# -gt 1 ];then
+    if [ ! -e dist/Driver.class ];then
+        bash make
+    fi
+    if [ $# -gt 2 ];then
+        java -cp dist Driver "$1" "$2" "$3"
+    else
+        java -cp dist Driver "$1" "$2"
+    fi
+else
+    printf "Incorrect usage\nUsage: ./san <heat> <heatchange> ?<size>\n" 
+fi
+
